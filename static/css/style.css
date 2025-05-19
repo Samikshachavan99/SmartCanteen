@@ -1,0 +1,16 @@
+/* static/css/style.css */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 1.5rem;
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 10px rgba(0, 123, 255, 0.6);
+  transform: scale(1.01);
+  transition: 0.2s ease-in-out;
+}
